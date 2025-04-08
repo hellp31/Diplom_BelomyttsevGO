@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cyrs_predWind</class>
+ <widget class="QDialog" name="cyrs_predWind">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cyrs/predmet</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>0</y>
+     <width>521</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>40</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 40pt &quot;Times New Roman&quot;;
+background-color: grey;
+color: white;
+text-align: center;
+padding-right: 50px;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Курсы/Предметы</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>71</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Выход</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Exit&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: grey; /*Цвет текстового поля*/
+  border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+ border-radius: 20px;
+
+  width: 250px;
+  height: 30px;
+outline: none;
+
+font-weight: bold;
+font:  12pt &quot;Times New Roman&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../icon/res-rc.qrc">
+     <normaloff>:/icon/logout_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/logout_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>231</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>40</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 40pt &quot;Times New Roman&quot;;
+background-color: grey;
+color: white;
+text-align: center;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Курс</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>110</y>
+     <width>248</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>40</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 40pt &quot;Times New Roman&quot;;
+background-color: grey;
+color: white;
+text-align: center;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Предмет</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>501</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>40</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 40pt &quot;Times New Roman&quot;;
+background-color: black;
+color: white;
+text-align: center;
+padding-right: 50px;
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;Times New Roman&quot;;
+
+
+text-align: center;
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>180</y>
+     <width>31</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: black;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>220</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Times New Roman&quot;;
+
+text-align: center;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>560</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: #f6f6f6; /*Цвет текстового поля*/
+  border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+ border-radius: 20px;
+  border: 1px solid #2d9fd9;
+
+  width: 250px;
+  height: 30px;
+
+outline: none;
+  border: 1px solid black;
+font-weight: bold;
+font:  12pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Проверить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>560</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: #f6f6f6; /*Цвет текстового поля*/
+  border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+ border-radius: 20px;
+  border: 1px solid #2d9fd9;
+
+  width: 250px;
+  height: 30px;
+
+outline: none;
+  border: 1px solid black;
+font-weight: bold;
+font:  12pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Сделать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>430</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Добавить курс</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>0</number>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Новые курсы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: green; /*Цвет текстового поля*/
+  border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+ border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  width: 250px;
+  height: 30px;
+
+outline: none;
+  border: 1px solid black;
+font-weight: bold;
+font:  12pt &quot;Times New Roman&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../icon/res-rc.qrc">
+     <normaloff>:/icon/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>430</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Добавить предмет</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename thems&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: green; /*Цвет текстового поля*/
+  border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+ border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  width: 250px;
+  height: 30px;
+
+outline: none;
+  border: 1px solid black;
+font-weight: bold;
+font:  12pt &quot;Times New Roman&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../icon/res-rc.qrc">
+     <normaloff>:/icon/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_10</zorder>
+ </widget>
+ <resources>
+  <include location="../icon/res-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

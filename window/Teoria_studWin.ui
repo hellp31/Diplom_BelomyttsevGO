@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Teoria_studWin</class>
+ <widget class="QDialog" name="Teoria_studWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Теория</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>521</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Times New Roman&quot;;
+background-color: grey;
+color: white;
+text-align: center;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Теория</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>540</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: #f6f6f6; /*Цвет текстового поля*/
+  border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+ border-radius: 20px;
+  border: 1px solid #2d9fd9;
+
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+outline: none;
+  border: 1px solid black;
+font-weight: bold;
+font:  12pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>481</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
